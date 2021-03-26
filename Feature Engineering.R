@@ -23,7 +23,7 @@ df = df %>% dplyr::select(Suburb,
 df$Propertycount = as.numeric(df$Propertycount)
 df$Distance = as.numeric(df$Distance)
 
-set.seed(28031992)
+set.seed(123456789)
 
 df_split = initial_split(df, prop = 0.75)
 
