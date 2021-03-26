@@ -3,7 +3,7 @@ library(rsample)
 library(tidymodels)
 
 #  Reading Melbourne data
-df = read.csv("/Users/Chenyufu/Dropbox/Machine Learning em R/Dados/Melbourne_housing_FULL.csv")
+df = read.csv("/path/Melbourne_housing_FULL.csv")
 
 sapply(df, class)
 sapply(df, function(x) sum(is.na(x)))
